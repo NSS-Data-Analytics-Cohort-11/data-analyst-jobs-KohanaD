@@ -78,12 +78,12 @@ WHERE review_count > 5000
 GROUP BY company, review_count
 ORDER BY company;
 
-SELECT COUNT(DISTINCT(company))
+SELECT COUNT(*)
 FROM data_analyst_jobs
 WHERE review_count > 5000;
 
 --AnswerPt1: Umm not sure how to answer this one here but the code should be correct :D
---AnswerPt2: 40
+--AnswerPt2: 185
 
 --10. Add the code to order the query in #9 from highest to lowest average star rating. Which company with more than 5000 reviews across all locations in the dataset has the highest star rating? What is that rating?
 
